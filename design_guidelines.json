@@ -1,0 +1,66 @@
+{
+  "app_name": "FILEFORGE",
+  "tagline": "Your Files. Your Tools. One Powerful Workspace.",
+  "theme": "dark futuristic neon SaaS",
+  "typography": {
+    "heading": "Outfit, sans-serif",
+    "body": "Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "colors": {
+    "background": "#050609",
+    "secondary": "#0B101A",
+    "cards": "#101827",
+    "electric_blue": "#168BFF",
+    "cyan": "#00E5FF",
+    "magenta": "#FF28C8",
+    "text": "#F5F7FF",
+    "muted": "#929BAD"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-[#101827]/70 border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.37)]",
+    "neon_glow": "shadow-[0_0_25px_rgba(22,139,255,0.25)] hover:shadow-[0_0_35px_rgba(0,193,255,0.4)] transition-all duration-300",
+    "tracing_beam": "relative before:absolute before:inset-0 before:p-[1px] before:bg-gradient-to-r before:from-cyan-500 before:via-blue-500 before:to-magenta-500 before:rounded-2xl before:-z-10"
+  },
+  "component_name": "FileForgeWorkspace",
+  "grids": {
+    "bento": "grid grid-cols-1 md:grid-cols-12 gap-6"
+  },
+  "layouts": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "header": "sticky top-0 z-50 backdrop-blur-xl bg-[#050609]/80 border-b border-white/10"
+  },
+  "motion": {
+    "transition": "transition-all duration-300 ease-in-out",
+    "hover_lift": "hover:-translate-y-1 hover:shadow-xl"
+  },
+  "accessibility": {
+    "contrast_ratio": "WCAG AA compliant (>4.5:1 text, >3:1 UI)",
+    "data_testid_convention": "kebab-case role-based attributes for all interactive elements"
+  },
+  "media": {
+    "hero_background": "https://images.unsplash.com/photo-1600031830097-10d2791a3b83?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "image_urls": [
+    {
+      "category": "Hero Background",
+      "url": "https://images.unsplash.com/photo-1600031830097-10d2791a3b83?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Futuristic neon workspace abstract desktop setup with blue lighting"
+    }
+  ],
+  "instructions_to_main_agent": "Ensure all 33 tools are fully functional with local browser processing (PDF, Image/Video, Converters & Utilities), history tracking in localStorage/IndexedDB, global search, and file manager.",
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: transition: all.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "All interactive and key informational elements MUST include a data-testid attribute."
+  ]
+}
